@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topnav{
+    overflow: scroll;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.topnav h4{
+    font-style: italic;    
+    color: green;
+    font-size: 20px;
+}
+.topnav a{
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    /* padding: 5px; */
+}
+.topnav select {
+    /* margin: 5px; */
+    border: none;
+    cursor: pointer;
+}
+.topnav a:hover{
+    background-color: #2381c0;
+    color: black;
+    transition: 0.5s;
+}
+section select{
+    color: green;
+}
+section button.split{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid green;
+    height: 25px;
+    width: 65px;
+    cursor: pointer;
+}
+section button.split:hover{
+    background-color: #2381c0;
+    transition: 0.5s;
+}
+
+/* main starts here */
+main{
+    background-color: rgb(0, 128, 111);
+    margin-top: -1px;
+    height: 39rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.core{
+    margin-top: 20px;
+}
+.core h1{
+    color: white;
+    font-size: 40px;
+}
+.core p{
+    color: white;
+    font-size: 15px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px;
+    border: 2px solid rgb(58, 113, 12);
+  }
+  main section{
+    margin-top: 30px;
+    border: 2px solid white;
+    background-color: white;
+    height: 30em;
+    padding-left: 20px;
+    box-sizing: inherit;
+    border-radius: 10px;
+    box-shadow: 14px 10px 12px rgb(52, 65, 70);
+  }
+  input.riff{
+    width: 50%;
+    margin: 14px 0 -10px 0;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  main section,p{
+    font-size: 13px;
+  }
+  .container button{
+    width: 25%;
+    height: 25px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(28, 137, 159);
+    color: white;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .container button:hover{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+  }
+  main section{
+    background-color: burlywood;
+  }
